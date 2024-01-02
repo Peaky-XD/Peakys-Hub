@@ -45,7 +45,7 @@ def main():
     else:
         main()
 def boom(nmbr, lmt):
-    global send, die, loop
+    global send
     try:
         for i in range(int(lmt)):
             head1 = {
