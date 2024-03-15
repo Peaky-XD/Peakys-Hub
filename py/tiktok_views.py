@@ -1,3 +1,6 @@
+"""
+Coded by : @x_spoilt
+"""
 import requests
 import random
 from getuseragent import UserAgent
@@ -32,7 +35,7 @@ class TikTokBooster:
         return response
 
 def main():
-    print(Panel("[bold cyan]TikTok Video Booster[/]", title="[bold green]Boost Your TikTok Video[/]"))
+    print(Panel("[bold cyan]TikTok Video Booster[/]\nCoded by : @x_spoilt", title="[bold green]Boost Your TikTok Video[/]"))
     user = input('> TikTok UserName: ')
     link = input('> Video Link: ')
 
